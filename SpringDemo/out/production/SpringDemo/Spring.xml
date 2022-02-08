@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<beans xmlns="http://www.springframework.org/schema/beans"
+       xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
+       xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
+
+    <bean id="rectangle" class="com.company.Rectangle"/>
+
+
+
+
+
+    <bean id="triangle" class="com.company.Triangle">
+        <constructor-arg  value="Equilaterial"/>
+        <constructor-arg  value="40"/>
+
+
+<!--        <property name="type" value="Equilateral"/>-->
+    </bean>
+
+
+
+
+
+
+
+
+
+</beans>
