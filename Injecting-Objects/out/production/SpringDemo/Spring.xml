@@ -3,22 +3,35 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-    <bean id="rectangle" class="com.company.Rectangle"/>
-
-
-
-
 
     <bean id="triangle" class="com.company.Triangle">
-        <constructor-arg  value="Equilaterial"/>
-        <constructor-arg  value="40"/>
-
+     <property name="pointA" ref="zeroPoint"/>
+        <property name="pointB" ref="Point2"/>
+        <property name="pointC" ref="Point3"/>
 
 <!--        <property name="type" value="Equilateral"/>-->
     </bean>
 
 
 
+
+    <bean id="zeroPoint" class="com.company.Point">
+        <property name="x" value="0"/>
+        <property name="y" value="0"/>
+
+    </bean>
+
+    <bean id="Point2" class="com.company.Point">
+        <property name="x" value="0"/>
+        <property name="y" value="20"/>
+
+    </bean>
+
+    <bean id="Point3" class="com.company.Point">
+        <property name="x" value="-20"/>
+        <property name="y" value="0"/>
+
+    </bean>
 
 
 

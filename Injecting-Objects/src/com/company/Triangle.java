@@ -1,37 +1,45 @@
 package com.company;
 
 public class Triangle {
-    private String type;
-    private int hight;
+    private  Point pointA;
+    private  Point pointB;
+    private  Point pointC;
 
-    public Triangle( String type){
-        this.type = type;
 
-    }
-    public Triangle( String type, int hight){
-        this.type = type;
-        this.hight = hight;
 
+    public Point getPointA() {
+        return pointA;
     }
 
-    public Triangle( int hight){
-        this.hight = hight;
+    public void setPointA(Point pointA) {
+        this.pointA = pointA;
+    }
 
+    public Point getPointB() {
+        return pointB;
+    }
+
+    public void setPointB(Point pointB) {
+        this.pointB = pointB;
+    }
+
+    public Point getPointC() {
+        return pointC;
+    }
+
+    public void setPointC(Point pointC) {
+        this.pointC = pointC;
     }
 
     public void Draw(){
-        System.out.println( getType()+" triangle drawn with hight of "+getHight());
+//        System.out.printf( "%n pointA = %d , pointB = %d pointC = %d %n",getPointA(),getPointB(),getPointC());
+        System.out.println("PontA = ("+getPointA().getX()+", "+getPointA().getY()+" )");
+        System.out.println("PontA = ("+getPointB().getX()+", "+getPointB().getY()+" )");
+        System.out.println("PontA = ("+getPointC().getX()+", "+getPointC().getY()+" )");
 
 
     }
 
 
-    public String getType() {
-        return type;
-    }
 
-
-    public int getHight() {
-        return hight;
-    }
 }
