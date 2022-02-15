@@ -2,13 +2,15 @@ package com.company;
 
 import org.springframework.beans.BeansException;
 import org.springframework.beans.factory.BeanNameAware;
+import org.springframework.beans.factory.DisposableBean;
+import org.springframework.beans.factory.InitializingBean;
 import org.springframework.context.ApplicationContext;
 import org.springframework.context.ApplicationContextAware;
 
 import java.util.List;
 import java.util.stream.Collectors;
-
-public class Triangle {
+// implements InitializingBean, DisposableBean
+public class Triangle implements InitializingBean, DisposableBean{
 
     private  Point pointA;
     private  Point pointB;
@@ -43,8 +45,8 @@ public class Triangle {
     }
 
     public void Draw(){
-//        System.out.printf( "%n pointA = %d , pointB = %d pointC = %d %n",getPointA(),getPointB(),getPointC());
-        System.out.println("the Bean Name is : "+getName());
+//  System.out.printf( "%n pointA = %d , pointB = %d pointC = %d %n",getPointA(),getPointB(),getPointC());
+
         System.out.println("PontA = ("+getPointA().getX()+", "+getPointA().getY()+" )");
         System.out.println("PontA = ("+getPointB().getX()+", "+getPointB().getY()+" )");
         System.out.println("PontA = ("+getPointC().getX()+", "+getPointC().getY()+" )");
@@ -52,23 +54,25 @@ public class Triangle {
 
     }
 
-    @Override
-    public void setApplicationContext(ApplicationContext context)
-            throws BeansException {
-        this.context = context;
-    }
 
-    public ApplicationContext getContext() {
-        return context;
+    @Override
+    public void afterPropertiesSet() throws Exception {
+        System.out.println("InitializingBean method afterPropertieSet call");
     }
 
     @Override
-    public void setBeanName(String name) {
-        this.Name = name;
+    public void destroy() throws Exception {
+        System.out.println("disposableBean method Destroy call");
     }
 
-    public String getName() {
-        return Name;
+
+    public void myInit(){
+        System.out.println("InitializingBean method afterPropertieSet call");
+    }
+
+    public void MyDestroy(){
+
+        System.out.println(" DestroyMethod call");
     }
 }
 
