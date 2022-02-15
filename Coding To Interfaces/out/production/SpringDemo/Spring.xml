@@ -4,7 +4,7 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="triangle" class="com.company.Triangle"  autowire="byName"  >
+    <bean id="triangle" class="com.company.Triangle" autowire="byName" >
 
 
 
@@ -14,8 +14,8 @@
 
 
     <bean id="pointA" class="com.company.Point">
-        <property name="x" value="${pointA.pointX}"/>
-        <property name="y" value="${pointB.pointY}"/>
+        <property name="x" value="0"/>
+        <property name="y" value="0"/>
 
     </bean>
 
@@ -32,12 +32,11 @@
     </bean>
 
 
-<!--<bean class="com.company.PostProcessorClass"/>-->
-<bean class="com.company.myBeanFactoryPP"/>
-<bean class="org.springframework.beans.factory.config.PropertyPlaceholderConfigurer">
+    <bean id="circle" class="com.company.Circle">
+       <property name="center" ref="pointA"/>
 
-    <property name="location" value="pointConfig.properties"/>
-</bean>
+    </bean>
+
 
 
 </beans>
