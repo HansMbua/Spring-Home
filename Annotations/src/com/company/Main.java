@@ -17,7 +17,7 @@ public class Main {
 
         AbstractApplicationContext context = new ClassPathXmlApplicationContext("Spring.xml");
         context.registerShutdownHook();
-        Shaps shaps = (Shaps) context.getBean("triangle");
+        Shaps shaps = (Shaps) context.getBean("circle");
         System.out.printf("%n Triangle %n");
         shaps.Draw();
 
