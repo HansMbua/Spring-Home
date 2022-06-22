@@ -3,11 +3,13 @@ package com.example.springmvcdemo;
 import org.springframework.stereotype.Controller;
 import org.springframework.ui.Model;
 import org.springframework.web.bind.annotation.RequestMapping;
+import org.springframework.web.bind.annotation.RequestParam;
 
 import javax.servlet.http.HttpServletRequest;
 import java.util.Locale;
 
 @Controller
+@RequestMapping("/hello")
 public class HelloWorldController {
 
     //need a controller method to show the initial html form
@@ -25,24 +27,49 @@ public class HelloWorldController {
 
 
 
-    @RequestMapping("/processFormVersionTwo")
 
-    public String letsShoutDude(HttpServletRequest request, Model model){
+
+//    public String letsShoutDude(HttpServletRequest request, Model model){
+//
+//        //read the request parameter from the html form
+//        String theName = request.getParameter("studentName");
+//        String theFamilyName = request.getParameter("familyName");
+//        //convert data to all caps
+//        theName = theName.toUpperCase();
+//        theFamilyName = theFamilyName.toUpperCase();
+//
+//        //create the message
+//        String result = "Yo!  "+theName+" "+theFamilyName;
+//        System.out.println(result);
+//        //add messsage ie the result to the model
+//        model.addAttribute("message",result);
+//
+//        return "processForm";
+//
+//
+//
+//
+//    }
+    @RequestMapping("/processFormVersionTwo")
+    public String letsShoutDude(@RequestParam("studentName") String theName,
+                                @RequestParam("studentName") String theFamilyName,
+                                Model model){
 
         //read the request parameter from the html form
-        String theName = request.getParameter("studentName");
-        String theFamilyName = request.getParameter("familyName");
+//        String theName = request.getParameter("studentName");
+//        String theFamilyName = request.getParameter("familyName");
         //convert data to all caps
         theName = theName.toUpperCase();
         theFamilyName = theFamilyName.toUpperCase();
 
         //create the message
-        String result = "Yo! "+theName+" "+theFamilyName;
+        String result = "Hey My Friend  "+theName+" "+theFamilyName;
         System.out.println(result);
         //add messsage ie the result to the model
         model.addAttribute("message",result);
 
         return "processForm";
+
 
 
 
