@@ -3,8 +3,7 @@ package com.company;
 public class Rectangle {
 
 
-
-    public void DrawNow(){
+    public void DrawNow() {
         System.out.println(" Rectangle drawn");
     }
 

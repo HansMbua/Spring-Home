@@ -6,23 +6,13 @@
     <bean id="rectangle" class="com.company.Rectangle"/>
 
 
-
-
-
     <bean id="triangle" class="com.company.Triangle">
-        <constructor-arg  value="Equilaterial"/>
-        <constructor-arg  value="40"/>
+        <constructor-arg value="Equilaterial"/>
+        <constructor-arg value="40"/>
 
 
-<!--        <property name="type" value="Equilateral"/>-->
+        <!--        <property name="type" value="Equilateral"/>-->
     </bean>
-
-
-
-
-
-
-
 
 
 </beans>

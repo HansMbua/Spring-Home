@@ -5,20 +5,18 @@
 
 
     <bean id="triangle" class="com.company.Triangle">
-       <property name="points">
-           <util:list>
-               <ref bean="zeroPoint"/>
-               <ref bean="Point2"/>
-               <ref bean="Point3"/>
-           </util:list>
+        <property name="points">
+            <util:list>
+                <ref bean="zeroPoint"/>
+                <ref bean="Point2"/>
+                <ref bean="Point3"/>
+            </util:list>
 
-       </property>
+        </property>
 
 
         <!--        <property name="type" value="Equilateral"/>-->
     </bean>
-
-
 
 
     <bean id="zeroPoint" class="com.company.Point">
@@ -38,10 +36,6 @@
         <property name="y" value="0"/>
 
     </bean>
-
-
-
-
 
 
 </beans>

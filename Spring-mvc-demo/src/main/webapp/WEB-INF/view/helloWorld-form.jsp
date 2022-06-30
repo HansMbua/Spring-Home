@@ -1,7 +1,7 @@
 <!DOCTYPE html>
 <html>
 <header>
-<title>Hello world - Input Form </title>
+    <title>Hello world - Input Form </title>
 
 </header>
 
@@ -14,14 +14,14 @@
     />
     <br>
     <br>
- <input
-         type="text"
-         placeholder="whats your family Name?"
-         name="familyName"
- />
+    <input
+            type="text"
+            placeholder="whats your family Name?"
+            name="familyName"
+    />
     <br>
     <br>
-    <button type="submit"> submit </button>
+    <button type="submit"> submit</button>
 </form>
 </body>
 

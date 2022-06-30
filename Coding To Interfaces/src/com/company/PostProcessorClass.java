@@ -10,7 +10,7 @@ public class PostProcessorClass implements BeanPostProcessor {
 
     @Override
     public Object postProcessAfterInitialization(Object bean, String beanName) throws BeansException {
-        System.out.println("in AfterInitialization Method bean Name is : "+beanName);
+        System.out.println("in AfterInitialization Method bean Name is : " + beanName);
 
 
         return bean;
@@ -18,7 +18,7 @@ public class PostProcessorClass implements BeanPostProcessor {
 
     @Override
     public Object postProcessBeforeInitialization(Object bean, String beanName) throws BeansException {
-        System.out.println("in Before Initialization Method bean Name is : "+beanName);
+        System.out.println("in Before Initialization Method bean Name is : " + beanName);
 
 
         return bean;

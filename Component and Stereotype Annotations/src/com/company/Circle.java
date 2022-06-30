@@ -8,36 +8,38 @@ import org.springframework.stereotype.Component;
 import javax.annotation.PostConstruct;
 import javax.annotation.PreDestroy;
 import javax.annotation.Resource;
+
 @Component
 /*
 tells spring that this class is going to be a bean
 this class is thesame as  this:   <bean id="circle" class="com.company.Circle"/>
 
  */
-public class Circle implements Shaps{
+public class Circle implements Shaps {
     private Point center;
-
 
 
     @Override
     public void Draw() {
-        System.out.println("Circle Point is : ( "+center.getX()+" ,"+ center.getY()+" )");
+        System.out.println("Circle Point is : ( " + center.getX() + " ," + center.getY() + " )");
     }
 
     public Point getCenter() {
         return center;
     }
 
-@Resource(name="pointC")
+    @Resource(name = "pointC")
     public void setCenter(Point center) {
         this.center = center;
     }
-   @PostConstruct
-    public void initializeCircle(){
+
+    @PostConstruct
+    public void initializeCircle() {
         System.out.println("init of circle");
     }
+
     @PreDestroy
-    public void destroyCircle(){
+    public void destroyCircle() {
         System.out.println("destroy of circle");
     }
 }

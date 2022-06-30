@@ -3,17 +3,16 @@
        xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance"
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
-<!--working with inner beans and alias-->
+    <!--working with inner beans and alias-->
 
     <bean id="triangle" class="com.company.Triangle" name="triangle-Name">
-     <property name="pointA" ref="zeroPoint">
+        <property name="pointA" ref="zeroPoint">
 
-    </property>
+        </property>
 
 
-
-        <property name="pointB" >
-            <bean  class="com.company.Point">
+        <property name="pointB">
+            <bean class="com.company.Point">
                 <property name="x" value="0"/>
                 <property name="y" value="20"/>
 
@@ -22,8 +21,8 @@
         </property>
 
 
-        <property name="pointC" >
-            <bean  class="com.company.Point">
+        <property name="pointC">
+            <bean class="com.company.Point">
                 <property name="x" value="-20"/>
                 <property name="y" value="0"/>
 
@@ -32,11 +31,9 @@
 
         </property>
 
-<!--        <property name="type" value="Equilateral"/>-->
+        <!--        <property name="type" value="Equilateral"/>-->
 
     </bean>
-
-
 
 
     <bean id="zeroPoint" class="com.company.Point">
@@ -46,12 +43,6 @@
     </bean>
 
     <alias name="triangle" alias="riancle-alias"/>
-
-
-
-
-
-
 
 
 </beans>

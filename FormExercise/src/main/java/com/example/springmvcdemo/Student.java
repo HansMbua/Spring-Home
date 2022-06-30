@@ -9,7 +9,7 @@ public class Student {
     private String Email;
     private int phoneNumber;
 
-    public Student(){
+    public Student() {
 
     }
 
