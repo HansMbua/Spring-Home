@@ -8,8 +8,8 @@ import org.springframework.web.bind.annotation.RequestMapping;
 
 @Controller
 @RequestMapping("/student")
-public class StudentControler {
-    // video ends 5 text Fields write some codes
+public class StudentController {
+    // video ends 1. Spring MVC Form Validation Overview
     @RequestMapping("/showForm")
     public String showForm(Model theModel){
 
