@@ -3,7 +3,7 @@
 <html>
 
 <head>
-    <title>Student HOME</title>
+    <title>Customer Home</title>
 </head>
 
 <body>
