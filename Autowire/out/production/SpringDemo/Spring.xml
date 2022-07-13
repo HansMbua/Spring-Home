@@ -4,14 +4,12 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="triangle" class="com.company.Triangle" autowire="byName" >
+    <bean id="triangle" class="com.company.Triangle" autowire="byName">
 
 
         <!--        <property name="type" value="Equilateral"/>-->
 
     </bean>
-
-
 
 
     <bean id="pointA" class="com.company.Point">
@@ -31,10 +29,6 @@
         <property name="y" value="0"/>
 
     </bean>
-
-
-
-
 
 
 </beans>

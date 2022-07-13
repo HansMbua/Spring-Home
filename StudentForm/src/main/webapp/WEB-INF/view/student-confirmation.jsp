@@ -21,7 +21,7 @@ operatiingSystems:
 <ul>
 
 
-    <c:forEach var = "temp" items="${student.operatiingSystems}">
+    <c:forEach var="temp" items="${student.operatingSystems}">
         <li>${temp}</li>
     </c:forEach>
 </ul>

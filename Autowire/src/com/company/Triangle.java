@@ -5,10 +5,9 @@ import java.util.stream.Collectors;
 
 public class Triangle {
 
-    private  Point pointA;
-    private  Point pointB;
-    private  Point pointC;
-
+    private Point pointA;
+    private Point pointB;
+    private Point pointC;
 
 
     public Point getPointA() {
@@ -35,15 +34,14 @@ public class Triangle {
         this.pointC = pointC;
     }
 
-    public void Draw(){
+    public void Draw() {
 //        System.out.printf( "%n pointA = %d , pointB = %d pointC = %d %n",getPointA(),getPointB(),getPointC());
-        System.out.println("PontA = ("+getPointA().getX()+", "+getPointA().getY()+" )");
-        System.out.println("PontA = ("+getPointB().getX()+", "+getPointB().getY()+" )");
-        System.out.println("PontA = ("+getPointC().getX()+", "+getPointC().getY()+" )");
+        System.out.println("PontA = (" + getPointA().getX() + ", " + getPointA().getY() + " )");
+        System.out.println("PontA = (" + getPointB().getX() + ", " + getPointB().getY() + " )");
+        System.out.println("PontA = (" + getPointC().getX() + ", " + getPointC().getY() + " )");
 
 
     }
-
 
 
 }

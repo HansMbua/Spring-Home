@@ -9,15 +9,15 @@ import org.springframework.context.ApplicationContextAware;
 
 import java.util.List;
 import java.util.stream.Collectors;
+
 // implements InitializingBean, DisposableBean
-public class Triangle implements Shaps  {
+public class Triangle implements Shaps {
 
-    private  Point pointA;
-    private  Point pointB;
-    private  Point pointC;
-    private  ApplicationContext context = null;
-    private String Name ;
-
+    private Point pointA;
+    private Point pointB;
+    private Point pointC;
+    private ApplicationContext context = null;
+    private String Name;
 
 
     public Point getPointA() {
@@ -44,19 +44,15 @@ public class Triangle implements Shaps  {
         this.pointC = pointC;
     }
 
-    public void Draw(){
+    public void Draw() {
 //  System.out.printf( "%n pointA = %d , pointB = %d pointC = %d %n",getPointA(),getPointB(),getPointC());
 
-        System.out.println("PontA = ("+getPointA().getX()+", "+getPointA().getY()+" )");
-        System.out.println("PontA = ("+getPointB().getX()+", "+getPointB().getY()+" )");
-        System.out.println("PontA = ("+getPointC().getX()+", "+getPointC().getY()+" )");
+        System.out.println("PontA = (" + getPointA().getX() + ", " + getPointA().getY() + " )");
+        System.out.println("PontA = (" + getPointB().getX() + ", " + getPointB().getY() + " )");
+        System.out.println("PontA = (" + getPointC().getX() + ", " + getPointC().getY() + " )");
 
 
     }
-
-
-
-
 
 
 }

@@ -5,14 +5,12 @@
 
 
     <bean id="triangle" class="com.company.Triangle">
-     <property name="pointA" ref="zeroPoint"/>
+        <property name="pointA" ref="zeroPoint"/>
         <property name="pointB" ref="Point2"/>
         <property name="pointC" ref="Point3"/>
 
-<!--        <property name="type" value="Equilateral"/>-->
+        <!--        <property name="type" value="Equilateral"/>-->
     </bean>
-
-
 
 
     <bean id="zeroPoint" class="com.company.Point">
@@ -32,10 +30,6 @@
         <property name="y" value="0"/>
 
     </bean>
-
-
-
-
 
 
 </beans>

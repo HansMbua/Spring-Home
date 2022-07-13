@@ -9,13 +9,10 @@
 >
 
 
-    <bean id="triangle" class="com.company.Triangle" autowire="byName" >
-
+    <bean id="triangle" class="com.company.Triangle" autowire="byName">
 
 
     </bean>
-
-
 
 
     <bean id="pointA" class="com.company.Point">
@@ -39,15 +36,13 @@
 
 
     <bean id="circle" class="com.company.Circle">
-<!--        <property name="center" ref="pointA"/>-->
+        <!--        <property name="center" ref="pointA"/>-->
     </bean>
 
-<bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
+    <bean class="org.springframework.beans.factory.annotation.AutowiredAnnotationBeanPostProcessor"/>
 
     <context:annotation-config/>
-<context:component-scan base-package="com.company"/>
-
-
+    <context:component-scan base-package="com.company"/>
 
 
 </beans>

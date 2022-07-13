@@ -14,13 +14,11 @@ public class Main {
     public static void main(String[] args) {
 
 
-
         AbstractApplicationContext context = new ClassPathXmlApplicationContext("Spring.xml");
         context.registerShutdownHook();
         Shaps shaps = (Shaps) context.getBean("circle");
         System.out.printf("%n Triangle %n");
         shaps.Draw();
-
 
 
     }

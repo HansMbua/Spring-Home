@@ -8,14 +8,13 @@ import org.springframework.context.ApplicationContextAware;
 import java.util.List;
 import java.util.stream.Collectors;
 
-public class Triangle implements ApplicationContextAware , BeanNameAware {
+public class Triangle implements ApplicationContextAware, BeanNameAware {
 
-    private  Point pointA;
-    private  Point pointB;
-    private  Point pointC;
-    private  ApplicationContext context = null;
-    private String Name ;
-
+    private Point pointA;
+    private Point pointB;
+    private Point pointC;
+    private ApplicationContext context = null;
+    private String Name;
 
 
     public Point getPointA() {
@@ -42,12 +41,12 @@ public class Triangle implements ApplicationContextAware , BeanNameAware {
         this.pointC = pointC;
     }
 
-    public void Draw(){
+    public void Draw() {
 //        System.out.printf( "%n pointA = %d , pointB = %d pointC = %d %n",getPointA(),getPointB(),getPointC());
-        System.out.println("the Bean Name is : "+getName());
-        System.out.println("PontA = ("+getPointA().getX()+", "+getPointA().getY()+" )");
-        System.out.println("PontA = ("+getPointB().getX()+", "+getPointB().getY()+" )");
-        System.out.println("PontA = ("+getPointC().getX()+", "+getPointC().getY()+" )");
+        System.out.println("the Bean Name is : " + getName());
+        System.out.println("PontA = (" + getPointA().getX() + ", " + getPointA().getY() + " )");
+        System.out.println("PontA = (" + getPointB().getX() + ", " + getPointB().getY() + " )");
+        System.out.println("PontA = (" + getPointC().getX() + ", " + getPointC().getY() + " )");
 
 
     }

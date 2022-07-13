@@ -8,7 +8,6 @@ public class Triangle {
     private List<Point> points;
 
 
-
     public List<Point> getPoints() {
         return points;
     }
@@ -18,22 +17,18 @@ public class Triangle {
     }
 
 
-
-    public void Draw(){
+    public void Draw() {
 //        System.out.printf( "%n pointA = %d , pointB = %d pointC = %d %n",getPointA(),getPointB(),getPointC());
 
-        for (Point point: points ){
-            System.out.println("PontA = ("+point.getX()+", "+point.getY()+" )");
+        for (Point point : points) {
+            System.out.println("PontA = (" + point.getX() + ", " + point.getY() + " )");
         }
 
         System.out.printf("%n Using Streams to display the result bellow %n");
-        points.stream().forEach(point -> System.out.println("PontA = ("+point.getX()+", "+point.getY()+" )"));
-
-
+        points.stream().forEach(point -> System.out.println("PontA = (" + point.getX() + ", " + point.getY() + " )"));
 
 
     }
-
 
 
 }

@@ -14,22 +14,20 @@ public class HelloWorldController {
 
     //need a controller method to show the initial html form
     @RequestMapping("/showForm")
-    public String showForm(){
-       return "helloWorld-form";
+    public String showForm() {
+        return "helloWorld-form";
     }
-      // need a controller method to process the html form
+
+    // need a controller method to process the html form
     @RequestMapping("/processForm")
-    public String processForm(){
+    public String processForm() {
 
 
         return "processForm";
     }
 
 
-
-
-
-//    public String letsShoutDude(HttpServletRequest request, Model model){
+    //    public String letsShoutDude(HttpServletRequest request, Model model){
 //
 //        //read the request parameter from the html form
 //        String theName = request.getParameter("studentName");
@@ -53,7 +51,7 @@ public class HelloWorldController {
     @RequestMapping("/processFormVersionTwo")
     public String letsShoutDude(@RequestParam("studentName") String theName,
                                 @RequestParam("studentName") String theFamilyName,
-                                Model model){
+                                Model model) {
 
         //read the request parameter from the html form
 //        String theName = request.getParameter("studentName");
@@ -63,14 +61,12 @@ public class HelloWorldController {
         theFamilyName = theFamilyName.toUpperCase();
 
         //create the message
-        String result = "Hey My Friend  "+theName+" "+theFamilyName;
+        String result = "Hey My Friend  " + theName + " " + theFamilyName;
         System.out.println(result);
         //add messsage ie the result to the model
-        model.addAttribute("message",result);
+        model.addAttribute("message", result);
 
         return "processForm";
-
-
 
 
     }

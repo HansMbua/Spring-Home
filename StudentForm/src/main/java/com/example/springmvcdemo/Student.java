@@ -1,5 +1,8 @@
 package com.example.springmvcdemo;
 
+import jakarta.validation.constraints.NotNull;
+import jakarta.validation.constraints.Size;
+
 import java.util.LinkedHashMap;
 
 public class Student {
@@ -8,15 +11,15 @@ public class Student {
     private String lastName;
     private String country;
     private String favoriteLanguage;
-    private String[] operatiingSystems;
+    private String[] operatingSystems;
 
-   private  LinkedHashMap<String, String> countryOptions ;
+    private LinkedHashMap<String, String> countryOptions;
 
     public Student() {
-         countryOptions  = new LinkedHashMap();
-         countryOptions.put("Br","Brazil");
-        countryOptions.put("CAM","Cameroon");
-        countryOptions.put("BE","Belgium");
+        countryOptions = new LinkedHashMap();
+        countryOptions.put("Br", "Brazil");
+        countryOptions.put("CAM", "Cameroon");
+        countryOptions.put("BE", "Belgium");
     }
 
     public String getFirstName() {
@@ -56,11 +59,11 @@ public class Student {
         this.favoriteLanguage = favoriteLanguage;
     }
 
-    public String[] getOperatiingSystems() {
-        return operatiingSystems;
+    public String[] getOperatingSystems() {
+        return operatingSystems;
     }
 
-    public void setOperatiingSystems(String[] operatiingSystems) {
-        this.operatiingSystems = operatiingSystems;
+    public void setOperatingSystems(String[] operatiingSystems) {
+        this.operatingSystems = operatiingSystems;
     }
 }

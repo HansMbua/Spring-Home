@@ -4,13 +4,10 @@
        xsi:schemaLocation="http://www.springframework.org/schema/beans http://www.springframework.org/schema/beans/spring-beans.xsd">
 
 
-    <bean id="triangle" class="com.company.Triangle"  autowire="byName"  >
-
+    <bean id="triangle" class="com.company.Triangle" autowire="byName">
 
 
     </bean>
-
-
 
 
     <bean id="pointA" class="com.company.Point">
@@ -32,8 +29,7 @@
     </bean>
 
 
-<bean class="com.company.PostProcessorClass"/>
-
+    <bean class="com.company.PostProcessorClass"/>
 
 
 </beans>

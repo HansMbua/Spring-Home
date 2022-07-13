@@ -9,20 +9,20 @@ import org.springframework.web.bind.annotation.RequestMapping;
 public class studentController {
 
     @RequestMapping("/showForm")
-    public String studentForm(Model model){
+    public String studentForm(Model model) {
         //creat student object
         Student theStudent = new Student();
 
         //create a model
-        model.addAttribute("student",theStudent);
+        model.addAttribute("student", theStudent);
         return "studentForm";
     }
+
     @RequestMapping("/processForm")
-    public String processForm(){
+    public String processForm() {
 
         return "confirmationPage";
     }
-
 
 
 }
