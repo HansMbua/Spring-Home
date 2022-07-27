@@ -1,0 +1,164 @@
+Manifest-Version: 1.0
+Main-Class: 
+Class-Path: classmate-1.5.1.jar spring-tx-5.3.9.jar spring-aop-5.3.9.jar
+  spring-jcl-5.3.9.jar spring-jms-5.3.9.jar spring-orm-5.3.9.jar spring-
+ oxm-5.3.9.jar spring-web-5.3.9.jar spring-core-5.3.9.jar spring-jdbc-5.
+ 3.9.jar spring-test-5.3.9.jar spring-beans-5.3.9.jar spring-r2dbc-5.3.9
+ .jar spring-webmvc-5.3.9.jar spring-aspects-5.3.9.jar spring-context-5.
+ 3.9.jar spring-webflux-5.3.9.jar spring-messaging-5.3.9.jar spring-webs
+ ocket-5.3.9.jar spring-expression-5.3.9.jar spring-instrument-5.3.9.jar
+  spring-tx-5.3.9-javadoc.jar spring-tx-5.3.9-sources.jar spring-aop-5.3
+ .9-javadoc.jar spring-aop-5.3.9-sources.jar spring-jcl-5.3.9-javadoc.ja
+ r spring-jcl-5.3.9-sources.jar spring-jms-5.3.9-javadoc.jar spring-jms-
+ 5.3.9-sources.jar spring-orm-5.3.9-javadoc.jar spring-orm-5.3.9-sources
+ .jar spring-oxm-5.3.9-javadoc.jar spring-oxm-5.3.9-sources.jar spring-w
+ eb-5.3.9-javadoc.jar spring-web-5.3.9-sources.jar jboss-logging-3.4.1.F
+ inal.jar spring-core-5.3.9-javadoc.jar spring-core-5.3.9-sources.jar sp
+ ring-jdbc-5.3.9-javadoc.jar spring-jdbc-5.3.9-sources.jar spring-test-5
+ .3.9-javadoc.jar spring-test-5.3.9-sources.jar spring-beans-5.3.9-javad
+ oc.jar spring-beans-5.3.9-sources.jar spring-r2dbc-5.3.9-javadoc.jar sp
+ ring-r2dbc-5.3.9-sources.jar validation-api-2.0.1.Final.jar spring-webm
+ vc-5.3.9-javadoc.jar spring-webmvc-5.3.9-sources.jar javax.servlet.jsp.
+ jstl-1.2.1.jar spring-aspects-5.3.9-javadoc.jar spring-aspects-5.3.9-so
+ urces.jar spring-context-5.3.9-javadoc.jar spring-context-5.3.9-sources
+ .jar spring-context-indexer-5.3.9.jar spring-context-support-5.3.9.jar 
+ spring-webflux-5.3.9-javadoc.jar spring-webflux-5.3.9-sources.jar hiber
+ nate-validator-8.0.0.CR1.jar spring-messaging-5.3.9-javadoc.jar spring-
+ messaging-5.3.9-sources.jar spring-websocket-5.3.9-javadoc.jar spring-w
+ ebsocket-5.3.9-sources.jar hibernate-validator-7.0.4.Final.jar spring-e
+ xpression-5.3.9-javadoc.jar spring-expression-5.3.9-sources.jar spring-
+ instrument-5.3.9-javadoc.jar spring-instrument-5.3.9-sources.jar javax.
+ servlet.jsp.jstl-api-1.2.1.jar hibernate-validator-cdi-7.0.4.Final.jar 
+ spring-context-indexer-5.3.9-javadoc.jar spring-context-indexer-5.3.9-s
+ ources.jar spring-context-support-5.3.9-javadoc.jar spring-context-supp
+ ort-5.3.9-sources.jar hibernate-validator-annotation-processor-7.0.4.Fi
+ nal.jar classmate-1.5.1.jar spring-tx-5.3.9.jar spring-aop-5.3.9.jar sp
+ ring-jcl-5.3.9.jar spring-jms-5.3.9.jar spring-orm-5.3.9.jar spring-oxm
+ -5.3.9.jar spring-web-5.3.9.jar spring-core-5.3.9.jar spring-jdbc-5.3.9
+ .jar spring-test-5.3.9.jar spring-beans-5.3.9.jar spring-r2dbc-5.3.9.ja
+ r spring-webmvc-5.3.9.jar spring-aspects-5.3.9.jar spring-context-5.3.9
+ .jar spring-webflux-5.3.9.jar spring-messaging-5.3.9.jar spring-websock
+ et-5.3.9.jar spring-expression-5.3.9.jar spring-instrument-5.3.9.jar sp
+ ring-tx-5.3.9-javadoc.jar spring-tx-5.3.9-sources.jar spring-aop-5.3.9-
+ javadoc.jar spring-aop-5.3.9-sources.jar spring-jcl-5.3.9-javadoc.jar s
+ pring-jcl-5.3.9-sources.jar spring-jms-5.3.9-javadoc.jar spring-jms-5.3
+ .9-sources.jar spring-orm-5.3.9-javadoc.jar spring-orm-5.3.9-sources.ja
+ r spring-oxm-5.3.9-javadoc.jar spring-oxm-5.3.9-sources.jar spring-web-
+ 5.3.9-javadoc.jar spring-web-5.3.9-sources.jar jboss-logging-3.4.1.Fina
+ l.jar spring-core-5.3.9-javadoc.jar spring-core-5.3.9-sources.jar sprin
+ g-jdbc-5.3.9-javadoc.jar spring-jdbc-5.3.9-sources.jar spring-test-5.3.
+ 9-javadoc.jar spring-test-5.3.9-sources.jar spring-beans-5.3.9-javadoc.
+ jar spring-beans-5.3.9-sources.jar spring-r2dbc-5.3.9-javadoc.jar sprin
+ g-r2dbc-5.3.9-sources.jar validation-api-2.0.1.Final.jar spring-webmvc-
+ 5.3.9-javadoc.jar spring-webmvc-5.3.9-sources.jar javax.servlet.jsp.jst
+ l-1.2.1.jar spring-aspects-5.3.9-javadoc.jar spring-aspects-5.3.9-sourc
+ es.jar spring-context-5.3.9-javadoc.jar spring-context-5.3.9-sources.ja
+ r spring-context-indexer-5.3.9.jar spring-context-support-5.3.9.jar spr
+ ing-webflux-5.3.9-javadoc.jar spring-webflux-5.3.9-sources.jar hibernat
+ e-validator-8.0.0.CR1.jar spring-messaging-5.3.9-javadoc.jar spring-mes
+ saging-5.3.9-sources.jar spring-websocket-5.3.9-javadoc.jar spring-webs
+ ocket-5.3.9-sources.jar hibernate-validator-7.0.4.Final.jar spring-expr
+ ession-5.3.9-javadoc.jar spring-expression-5.3.9-sources.jar spring-ins
+ trument-5.3.9-javadoc.jar spring-instrument-5.3.9-sources.jar javax.ser
+ vlet.jsp.jstl-api-1.2.1.jar hibernate-validator-cdi-7.0.4.Final.jar spr
+ ing-context-indexer-5.3.9-javadoc.jar spring-context-indexer-5.3.9-sour
+ ces.jar spring-context-support-5.3.9-javadoc.jar spring-context-support
+ -5.3.9-sources.jar hibernate-validator-annotation-processor-7.0.4.Final
+ .jar classmate-1.5.1.jar spring-tx-5.3.9.jar spring-aop-5.3.9.jar sprin
+ g-jcl-5.3.9.jar spring-jms-5.3.9.jar spring-orm-5.3.9.jar spring-oxm-5.
+ 3.9.jar spring-web-5.3.9.jar spring-core-5.3.9.jar spring-jdbc-5.3.9.ja
+ r spring-test-5.3.9.jar spring-beans-5.3.9.jar spring-r2dbc-5.3.9.jar s
+ pring-webmvc-5.3.9.jar spring-aspects-5.3.9.jar spring-context-5.3.9.ja
+ r spring-webflux-5.3.9.jar spring-messaging-5.3.9.jar spring-websocket-
+ 5.3.9.jar spring-expression-5.3.9.jar spring-instrument-5.3.9.jar sprin
+ g-tx-5.3.9-javadoc.jar spring-tx-5.3.9-sources.jar spring-aop-5.3.9-jav
+ adoc.jar spring-aop-5.3.9-sources.jar spring-jcl-5.3.9-javadoc.jar spri
+ ng-jcl-5.3.9-sources.jar spring-jms-5.3.9-javadoc.jar spring-jms-5.3.9-
+ sources.jar spring-orm-5.3.9-javadoc.jar spring-orm-5.3.9-sources.jar s
+ pring-oxm-5.3.9-javadoc.jar spring-oxm-5.3.9-sources.jar spring-web-5.3
+ .9-javadoc.jar spring-web-5.3.9-sources.jar jboss-logging-3.4.1.Final.j
+ ar spring-core-5.3.9-javadoc.jar spring-core-5.3.9-sources.jar spring-j
+ dbc-5.3.9-javadoc.jar spring-jdbc-5.3.9-sources.jar spring-test-5.3.9-j
+ avadoc.jar spring-test-5.3.9-sources.jar spring-beans-5.3.9-javadoc.jar
+  spring-beans-5.3.9-sources.jar spring-r2dbc-5.3.9-javadoc.jar spring-r
+ 2dbc-5.3.9-sources.jar validation-api-2.0.1.Final.jar spring-webmvc-5.3
+ .9-javadoc.jar spring-webmvc-5.3.9-sources.jar javax.servlet.jsp.jstl-1
+ .2.1.jar spring-aspects-5.3.9-javadoc.jar spring-aspects-5.3.9-sources.
+ jar spring-context-5.3.9-javadoc.jar spring-context-5.3.9-sources.jar s
+ pring-context-indexer-5.3.9.jar spring-context-support-5.3.9.jar spring
+ -webflux-5.3.9-javadoc.jar spring-webflux-5.3.9-sources.jar hibernate-v
+ alidator-8.0.0.CR1.jar spring-messaging-5.3.9-javadoc.jar spring-messag
+ ing-5.3.9-sources.jar spring-websocket-5.3.9-javadoc.jar spring-websock
+ et-5.3.9-sources.jar hibernate-validator-7.0.4.Final.jar spring-express
+ ion-5.3.9-javadoc.jar spring-expression-5.3.9-sources.jar spring-instru
+ ment-5.3.9-javadoc.jar spring-instrument-5.3.9-sources.jar javax.servle
+ t.jsp.jstl-api-1.2.1.jar hibernate-validator-cdi-7.0.4.Final.jar spring
+ -context-indexer-5.3.9-javadoc.jar spring-context-indexer-5.3.9-sources
+ .jar spring-context-support-5.3.9-javadoc.jar spring-context-support-5.
+ 3.9-sources.jar hibernate-validator-annotation-processor-7.0.4.Final.ja
+ r classmate-1.5.1.jar spring-tx-5.3.9.jar spring-aop-5.3.9.jar spring-j
+ cl-5.3.9.jar spring-jms-5.3.9.jar spring-orm-5.3.9.jar spring-oxm-5.3.9
+ .jar spring-web-5.3.9.jar spring-core-5.3.9.jar spring-jdbc-5.3.9.jar s
+ pring-test-5.3.9.jar spring-beans-5.3.9.jar spring-r2dbc-5.3.9.jar spri
+ ng-webmvc-5.3.9.jar spring-aspects-5.3.9.jar spring-context-5.3.9.jar s
+ pring-webflux-5.3.9.jar spring-messaging-5.3.9.jar spring-websocket-5.3
+ .9.jar spring-expression-5.3.9.jar spring-instrument-5.3.9.jar spring-t
+ x-5.3.9-javadoc.jar spring-tx-5.3.9-sources.jar spring-aop-5.3.9-javado
+ c.jar spring-aop-5.3.9-sources.jar spring-jcl-5.3.9-javadoc.jar spring-
+ jcl-5.3.9-sources.jar spring-jms-5.3.9-javadoc.jar spring-jms-5.3.9-sou
+ rces.jar spring-orm-5.3.9-javadoc.jar spring-orm-5.3.9-sources.jar spri
+ ng-oxm-5.3.9-javadoc.jar spring-oxm-5.3.9-sources.jar spring-web-5.3.9-
+ javadoc.jar spring-web-5.3.9-sources.jar jboss-logging-3.4.1.Final.jar 
+ spring-core-5.3.9-javadoc.jar spring-core-5.3.9-sources.jar spring-jdbc
+ -5.3.9-javadoc.jar spring-jdbc-5.3.9-sources.jar spring-test-5.3.9-java
+ doc.jar spring-test-5.3.9-sources.jar spring-beans-5.3.9-javadoc.jar sp
+ ring-beans-5.3.9-sources.jar spring-r2dbc-5.3.9-javadoc.jar spring-r2db
+ c-5.3.9-sources.jar validation-api-2.0.1.Final.jar spring-webmvc-5.3.9-
+ javadoc.jar spring-webmvc-5.3.9-sources.jar javax.servlet.jsp.jstl-1.2.
+ 1.jar spring-aspects-5.3.9-javadoc.jar spring-aspects-5.3.9-sources.jar
+  spring-context-5.3.9-javadoc.jar spring-context-5.3.9-sources.jar spri
+ ng-context-indexer-5.3.9.jar spring-context-support-5.3.9.jar spring-we
+ bflux-5.3.9-javadoc.jar spring-webflux-5.3.9-sources.jar hibernate-vali
+ dator-8.0.0.CR1.jar spring-messaging-5.3.9-javadoc.jar spring-messaging
+ -5.3.9-sources.jar spring-websocket-5.3.9-javadoc.jar spring-websocket-
+ 5.3.9-sources.jar hibernate-validator-7.0.4.Final.jar spring-expression
+ -5.3.9-javadoc.jar spring-expression-5.3.9-sources.jar spring-instrumen
+ t-5.3.9-javadoc.jar spring-instrument-5.3.9-sources.jar javax.servlet.j
+ sp.jstl-api-1.2.1.jar hibernate-validator-cdi-7.0.4.Final.jar spring-co
+ ntext-indexer-5.3.9-javadoc.jar spring-context-indexer-5.3.9-sources.ja
+ r spring-context-support-5.3.9-javadoc.jar spring-context-support-5.3.9
+ -sources.jar hibernate-validator-annotation-processor-7.0.4.Final.jar a
+ nnotations-23.0.0.jar classmate-1.5.1.jar spring-tx-5.3.9.jar spring-ao
+ p-5.3.9.jar spring-jcl-5.3.9.jar spring-jms-5.3.9.jar spring-orm-5.3.9.
+ jar spring-oxm-5.3.9.jar spring-web-5.3.9.jar spring-core-5.3.9.jar spr
+ ing-jdbc-5.3.9.jar spring-test-5.3.9.jar spring-beans-5.3.9.jar spring-
+ r2dbc-5.3.9.jar spring-webmvc-5.3.9.jar spring-aspects-5.3.9.jar spring
+ -context-5.3.9.jar spring-webflux-5.3.9.jar spring-messaging-5.3.9.jar 
+ spring-websocket-5.3.9.jar spring-expression-5.3.9.jar spring-instrumen
+ t-5.3.9.jar spring-tx-5.3.9-javadoc.jar spring-tx-5.3.9-sources.jar spr
+ ing-aop-5.3.9-javadoc.jar spring-aop-5.3.9-sources.jar spring-jcl-5.3.9
+ -javadoc.jar spring-jcl-5.3.9-sources.jar spring-jms-5.3.9-javadoc.jar 
+ spring-jms-5.3.9-sources.jar spring-orm-5.3.9-javadoc.jar spring-orm-5.
+ 3.9-sources.jar spring-oxm-5.3.9-javadoc.jar spring-oxm-5.3.9-sources.j
+ ar spring-web-5.3.9-javadoc.jar spring-web-5.3.9-sources.jar jboss-logg
+ ing-3.4.1.Final.jar spring-core-5.3.9-javadoc.jar spring-core-5.3.9-sou
+ rces.jar spring-jdbc-5.3.9-javadoc.jar spring-jdbc-5.3.9-sources.jar sp
+ ring-test-5.3.9-javadoc.jar spring-test-5.3.9-sources.jar spring-beans-
+ 5.3.9-javadoc.jar spring-beans-5.3.9-sources.jar spring-r2dbc-5.3.9-jav
+ adoc.jar spring-r2dbc-5.3.9-sources.jar validation-api-2.0.1.Final.jar 
+ spring-webmvc-5.3.9-javadoc.jar spring-webmvc-5.3.9-sources.jar javax.s
+ ervlet.jsp.jstl-1.2.1.jar spring-aspects-5.3.9-javadoc.jar spring-aspec
+ ts-5.3.9-sources.jar spring-context-5.3.9-javadoc.jar spring-context-5.
+ 3.9-sources.jar spring-context-indexer-5.3.9.jar spring-context-support
+ -5.3.9.jar spring-webflux-5.3.9-javadoc.jar spring-webflux-5.3.9-source
+ s.jar hibernate-validator-8.0.0.CR1.jar spring-messaging-5.3.9-javadoc.
+ jar spring-messaging-5.3.9-sources.jar spring-websocket-5.3.9-javadoc.j
+ ar spring-websocket-5.3.9-sources.jar hibernate-validator-7.0.4.Final.j
+ ar spring-expression-5.3.9-javadoc.jar spring-expression-5.3.9-sources.
+ jar spring-instrument-5.3.9-javadoc.jar spring-instrument-5.3.9-sources
+ .jar javax.servlet.jsp.jstl-api-1.2.1.jar hibernate-validator-cdi-7.0.4
+ .Final.jar spring-context-indexer-5.3.9-javadoc.jar spring-context-inde
+ xer-5.3.9-sources.jar spring-context-support-5.3.9-javadoc.jar spring-c
+ ontext-support-5.3.9-sources.jar hibernate-validator-annotation-process
+ or-7.0.4.Final.jar
+
