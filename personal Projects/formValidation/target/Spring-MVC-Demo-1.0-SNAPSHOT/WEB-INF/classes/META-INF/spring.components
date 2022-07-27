@@ -1,0 +1,2 @@
+CustomerController=org.springframework.stereotype.Component
+homeController=org.springframework.stereotype.Component

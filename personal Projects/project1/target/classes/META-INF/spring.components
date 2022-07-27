@@ -1,0 +1,3 @@
+com.example.springmvcdemo.CustomerController=org.springframework.stereotype.Component
+com.example.springmvcdemo.homeController=org.springframework.stereotype.Component
+com.example.springmvcdemo.userData=javax.persistence.Entity
