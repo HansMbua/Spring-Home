@@ -36,8 +36,8 @@ public class MyDemoLoggingAspect {
             if (temArg instanceof Account){
                 //Downcast and print Account specifi stuff
                 Account theAccount = (Account) temArg;
-                System.out.println("Accout name: "+theAccount.getName());
-                System.out.println("Accout level: "+theAccount.getLevel());
+                System.out.println("Account name: "+theAccount.getName());
+                System.out.println("Account level: "+theAccount.getLevel());
             }
         }
 
