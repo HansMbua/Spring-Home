@@ -1,15 +1,19 @@
 package com.Love.ToCode;
 
-public class PizzaStore extends Pizza{
+public abstract class PizzaStore{
+
+    public Pizza orderPizza(String Type){
+        Pizza pizza = getPizza(Type);
+
+        pizza.Prepare();
+        pizza.box();
+        pizza.price();
+        pizza.getName();
 
 
-    @Override
-    public String create(String name) {
-        String theName = "";
-        if (name.equals("cheese")){
-            theName = "in the Pizzastore()";
-        }
 
-        return theName;
+        return pizza;
     }
+
+    public abstract Pizza getPizza(String Type);
 }
